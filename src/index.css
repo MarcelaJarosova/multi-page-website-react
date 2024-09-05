@@ -1,0 +1,117 @@
+body {
+  background-color: #f1f0db;
+  color: #42322d;
+  font-family: Roboto;
+}
+
+.container {
+  margin: 30px auto;
+  max-width: 60vw;
+}
+
+.container img {
+  width: 400px;
+}
+
+/*----INTRODUCTION----*/
+.introduction-box {
+  text-align: center;
+  font-size: 20px;
+}
+
+/*----QUESTIONS----*/
+.question-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.one-question {
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+}
+
+.one-question img {
+  width: 100px;
+  height: 70px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px;
+}
+
+/*----INFORMATION-TABS----*/
+.information-box {
+  padding: 20px;
+}
+
+.information-box button {
+  border: none;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nonactive {
+  background-color: transparent;
+}
+
+.active {
+  background-color: #d3a293;
+}
+
+.information-content {
+  background-color: #d3a293;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/*----FORM----*/
+.form-container {
+  margin: 30px;
+  text-align: center;
+}
+
+.image-generator form {
+  display: flex;
+  justify-content: center;
+}
+
+.image-generator input {
+  color: white;
+  border: none;
+  width: 250px;
+  padding: 10px;
+  background-color: #80716c;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+}
+
+form button {
+  border: none;
+  background-color: #80716c;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.image-generator input::placeholder {
+  color: rgb(218, 198, 198);
+}
+
+/*----GENERATED-IMAGE----*/
+.image-container {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.image-generator img {
+  width: 400px;
+}
